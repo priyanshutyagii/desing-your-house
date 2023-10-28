@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 5 project</title>
+    <!-- bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- OWN css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg bg-light fixed-top">
+    <div class="container">
+      <a class=" navbar-brand" href="#"><span class="text-warning">Build</span>Con</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+       data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" href="#carouselExampleCaptions">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#services">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#team">Team</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="/images/my-private-villas-luxury-rentals-691751112_hu1c976dd42afe38601f1d7d04f876b725_165311_1900x0_resize_q90_lanczos.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="title">Your Dream House</h5>
+          <p>Some representative placeholder content for the first slide.</p>
+          <p><a href="#" class=" button btn btn-warning mt-3">Learn More</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/istockphoto-1424381465-170667a.webp" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="title">True Construction</h5>
+          <p>Some representative placeholder content for the second slide.</p>
+          <p><a href="#" class=" button btn btn-warning mt-3">Learn More</a></p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="/images/luxury-villas-in-chennai.jpg" class="d-block w-100" alt="...">
+        <div class="carousel-caption ">
+          <h5 class="title">Always Dedicated</h5>
+          <p>Some representative placeholder content for the third slide.</p>
+          <p><a href="#" class=" button btn btn-warning mt-3">Learn More</a></p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!---about section--->
+
+  <section id="about" class="about section-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-12">
+        <div class="about-img"><br><br>
+          <img  src="/images/photo-1560179707-f14e90ef3623.jpeg" alt="" class="img rounded-pill img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+        <div class="about-text">
+          <h2 class="text">We provide best quality <br>Services Ever</h2>
+          <p class="sub-text">lack of defects; lack of rework; completion on time and within budget.
+             Quality means zero defects, delivery within budget and time stripped out of waste
+              (Latham, 1994). Defects hinder the functional performance of the buildings and services.</p>
+             <a href="" class=" button btn btn-warning">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-12">
+        <div class="about-img"><br><br>
+          <img src="/images/site_0741_0023-1000-665-20140929120037.jpg" alt="" class="img rounded-pill img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+        <div class="about-text">
+          <h2 class="text">We provide best quality <br>Services Ever</h2>
+          <p class="sub-text"> the establishment of standards, procedures and protocols to ensure
+             that a project is being built according to the required specifications. This includes
+              ensuring that all materials used are of the highest quality and that the workmanship
+               is up to standard.</p>
+             <a href="" class="button btn btn-warning">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-4 col-md-12 col-12">
+        <div class="about-img"><br><br>
+          <img src="/images/Auckland_Ferry_Terminal_n.jpg" alt="" class="img rounded-pill img-fluid">
+        </div>
+      </div>
+      <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
+        <div class="about-text">
+          <h2 class="text">We provide best quality <br>Services Ever</h2>
+          <p class="sub-text"> unique and specific to your brand, but still easy enough to understand
+             so that your audience gets the message immediately.  Descriptive slogans: A descriptive
+              slogan describes what your business does or what it can offer to potential customers
+               in a memorable phrase.</p>
+             <a href="" class="button btn btn-warning">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </section>
+
+
+  <!---services section--->
+
+  <section id="services" class="services section-padding bg-secondary">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5 ">
+            <h2 class="text">Our Services</h2>
+            <p class="sub-text">Building Services are the electrical, plumbing, and
+               <br>mechanical systems in a building. 
+                </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-subtract"></i>
+              <h3 class=" top card-title">Best Quality</h3>
+              <p class="lead">A high performing building includes these characteristics: Sustainable
+                 design with a proper balance of aesthetics, accessibility, cost-effectiveness, safety,
+                  and security.</p>
+                 <button class=" button btn btn-warning test-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-playstation"></i>
+              <h3 class=" top card-title">Integrity</h3>
+              <p class="lead">Structural integrity is the ability of a structure to 
+                 intended loading without failing due to fracture. It
+                  a concept often used in engineering to produce items  a desired service life.
+              </p>
+                 <button class=" button btn btn-warning test-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-4">
+          <div class="card text-white text-center bg-dark pb-2">
+            <div class="card-body">
+              <i class="bi bi-slack"></i>
+              <h3 class="top card-title">Sustainability</h3>
+              <p class="lead">In practice, building sustainability means living in harmony
+                 with the natural environment, considering the social,
+                 water
+                   and material intensive lifestyle.</p>
+                 <button class="button btn btn-warning test-dark">Read More</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <!---portfolio section--->
+
+  <section id="portfolio" class="portfolio section-padding bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2 class="text">Our Projects</h2>
+            <p class="sub-text">A super-fun way to attack additive<br> area concepts.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="/images/building.jpg" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Building Make</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Inventore suscipit iste aliquid nesciunt? Doloribus expedita temporibus
+                    doloremqu eat molestiae.</p>
+                    <button class=" button btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="/images/dont-leak-info-nse-tells-top-executives.webp" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Building Make</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Inventore suscipit istetemporibus
+                    doloremque! Culpa rem delectus facere  eveniet placeat molestiae.</p>
+                    <button class=" button btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4">
+            <div class="card text-center bg-white pb-2">
+              <div class="card-body text-dark">
+                <div class="img-area mb-4">
+                  <img src="/images/Most-expensive-buildings.webp" alt="" class="img-fluid">
+                </div>
+                <h3 class="card-title">Building Make</h3>
+                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                   Inventore suscipit iste aliqui temporibus
+                    doloremque! Culpa rem delectus facere  eveniet placeat molestiae.</p>
+                    <button class=" button btn bg-warning text-dark">Learn More</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!---Team Section--->
+
+  <section id="team" class="team section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2 class="text">Our Team</h2>
+            <p class="sub-text">Houses can be symbols of the self, expressing <br>concent about self-care.</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="/images/img1.webp" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Jack Wilson</h3>
+              <p class="card-text">A dream home should be a place where the person finds comfort, 
+                no matter where they go, they will find peace at that one place.</p>
+               <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                <i class="bi bi-facebook text-dark mx-1"></i>
+                <i class="bi bi-instagram text-dark mx-1"></i>
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+               </p>  
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="/images/img3.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">thomas carry</h3>
+              <p class="card-text">summarize your skills, passion, interests, and values behind your work
+                 and whatever you are currently doing. plan to attain your dream.</p>
+               <p class="socials">
+                <i class=" bi bi-twitter text-dark mx-1"></i>
+                <i class="bi bi-facebook text-dark mx-1"></i>
+                <i class="bi bi-instagram text-dark mx-1"></i>
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+               </p>  
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="/images/images (1).jpeg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">Jack Wilson</h3>
+              <p class="card-text">A house is a single-unit residential building. It may range in
+                 complexity from a rudimentary hut to a complex structure of wood, masonry, 
+                 concrete.</p>
+               <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                <i class="bi bi-facebook text-dark mx-1"></i>
+                <i class="bi bi-instagram text-dark mx-1"></i>
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+               </p>  
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <div class="card text-center">
+            <div class="card-body">
+              <img src="/images/SEMI-CASUAL1-compressed-931x1024.jpg" alt="" class="img-fluid rounded-circle">
+              <h3 class="card-title py-2">hrithik roshan</h3>
+              <p class="card-text">it is not too big nor too small, just the perfect size. My
+                 family lives in the home. It comprises of my father, mother, sister and grandparents.
+                  We live in our ancestral .</p>
+               <p class="socials">
+                <i class="bi bi-twitter text-dark mx-1"></i>
+                <i class="bi bi-facebook text-dark mx-1"></i>
+                <i class="bi bi-instagram text-dark mx-1"></i>
+                <i class="bi bi-linkedin text-dark mx-1"></i>
+               </p>  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!---contact section--->
+ 
+  <section id="contact" class="contact section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="section-header text-center pb-5">
+            <h2 class="text"> Contact Us</h2>
+            <p class="sub-text">a part of yourself or a part of <br>your personality. </p>
+          </div>
+        </div>
+        <div class="row m-0">
+          <div class="col-md-12 p-0 pt-4 pb-4 ">
+           <form action="#" class="bg-light p-4.m-auto">
+            <div class="row">
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input type="text" class="form-control" required placeholder="Your Full Name">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input type="email" class="form-control" required placeholder="Your  Email Here">
+                </div>
+              </div>
+              <div class="abc"> 
+                Gander:
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                <label class="form-check-label" for="flexRadioDefault1">
+                  Male
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" checked>
+                <label class="form-check-label" for="flexRadioDefault2">
+                  Female 
+                </label>
+              </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                  <input type="location" class="form-control" required placeholder="Your  location">
+                </div>
+              </div>
+              <div class="col-md-12">
+                <div class="mb-3">
+                <textarea rows="3" required class="form-control" placeholder="Your Query Here"></textarea>
+                </div>
+              </div>
+
+              <button class=" button btn btn-warning btn-lg btn-block mt-3">Send Now</button>
+            </div>
+           </form>
+          </div>
+        </div>
+      </div>
+  </section>
+
+  <!---footer--->
+  <footer class="bg-dark p-2 text-center">
+    <div class="container">
+      <p class="text-white">All Right Reserved @website Name</p>
+    </div>
+  </footer>
+
+
+</body>
+<!-- js libraries -->
+<script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+    const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
+const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))
+</script>
+<!-- own js -->
+<script src="js/main.js"></script>
+
+</html>
